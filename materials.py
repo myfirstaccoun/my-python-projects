@@ -30,21 +30,6 @@ def convertTxt(text): # "3 + 2" ==> 5
         print("حدث خطأ في التحويل:", e)
         return None
 
-def filterArr(arr, filter="", mood="merge"):
-    # filter Keywords ==> i = item, low = lowerCase, up = upperCase, >, >=, <, <=, =, && = and, || = or
-    # mood = merge = arr of arrs || oneArr
-    filter = "".join(filter.split())
-    filters = split(filter, ["&&", "||"])
-    print(filters)
-
-    if mood == "merge":
-        i = 0
-        while i < len(arr):
-            
-            i += 1
-
-    return ""
-
 def replaceArr(text, replArr): # text = "hello word!", replArr = [ ["word", "world"], ["!", "."] ] ==> "hello world."
     i = 0
     while i < len(replArr):
