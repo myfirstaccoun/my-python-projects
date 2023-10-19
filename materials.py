@@ -23,7 +23,7 @@ def split(text, delimiter = ""):
     
     return arr
     
-def convertTxt(text):
+def convertTxt(text): # "3 + 2" ==> 5
     try:
         return eval(text)
     except Exception as e:
